@@ -47,7 +47,7 @@ public class DesafioEstControl4 {
     }
 
    } while (tentativas != 10);
-   //numero total de tentativas, loop do
+   //numero total de tentativas, fim loop do
 
    System.out.println("Digite 0 para sair, ou qualquer outro numero para continuar: ");
    continuar = scanner.nextInt();
