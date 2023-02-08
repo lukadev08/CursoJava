@@ -46,6 +46,7 @@ public class DesafioModuloJantar {
 
         //metodo 'void comer' vai acrescentando ao valor final ao decorrer das entradas de valores
         
+        
 
     }
     
