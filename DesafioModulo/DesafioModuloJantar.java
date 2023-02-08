@@ -45,8 +45,6 @@ public class DesafioModuloJantar {
         System.out.println(p1.apresentar());//comeu a comida3
 
         //metodo 'void comer' vai acrescentando ao valor final ao decorrer das entradas de valores
-        
-        
 
     }
     
