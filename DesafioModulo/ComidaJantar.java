@@ -6,12 +6,10 @@ public class ComidaJantar {
     double peso;
 
     ComidaJantar(String nomeComida, double pesoComida){
-        nome = nomeComida;
-        peso = pesoComida;
+        this.nome = nomeComida;
+        this.peso = pesoComida;
+        //atualizado:this.
     
     }
 
-    double comeuComida(){
-        return peso;
-    }
 }
