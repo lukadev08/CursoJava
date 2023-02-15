@@ -27,7 +27,8 @@ public class ConjuntoComportado {
         nums.add(3);
         nums.add(125);
         nums.add(7);
-
+        //nums.get(1); nao e possivel acessar pelo indice
+        
         for (int n: nums){
                 //cast obj > primtv
             System.out.println(n);
