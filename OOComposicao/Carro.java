@@ -2,14 +2,24 @@ package OOComposicao;
 
 public class Carro {
     
-    Motor motor = new Motor();
+    Motor motor;
 
+    Carro(){
+        this.motor = new Motor(this);//metodo para criar relacao bidirecional entre objetos
+    }
+    
     void acelerar(){
-        motor.fatorInjecao += 0.4;
+        if(motor.fatorInjecao < 2.6){ //delimita um valor max.
+            motor.fatorInjecao += 0.4;
+
+        }
     }
 
     void frear(){
-        motor.fatorInjecao -= 0.4;
+        if(motor.fatorInjecao > 0.5){ // delimita um valor min
+            motor.fatorInjecao -= 0.4;
+
+        }
     }
 
     void ligar(){
