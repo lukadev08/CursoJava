@@ -15,13 +15,22 @@ public class Usuario {
         na classe do metodo main o 'usuario' sera imprimido com este valor automaticamente
         */
     }
-/* 
+
+    /* 
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         return result;
+    }
+    */
+
+    @Override
+    public int hashCode() {
+        //return 1; todos os hashcode dos usuarios serao 1
+
+        return this.nome.length(); // seta o 'nome' como hashcode para parametro de comparacao
     }
 
     @Override
@@ -40,10 +49,10 @@ public class Usuario {
             return false;
         return true;
     }
-    */
+    
  //source action shortcut /\
 
-
+/* 
  // apenas o hashcode mais simples
 public int hashCode(){
     return 0;
@@ -54,5 +63,6 @@ public int hashCode(){
     return this.nome.equals(outroUsuario.nome);
 
  }
+  */
   
 }
