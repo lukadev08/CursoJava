@@ -1,5 +1,9 @@
 package OOComposicao;
 
+/**Relacionamento 
+ * um para um
+ */
+
 public class CarroTeste {
     public static void main(String[] args) {
         
