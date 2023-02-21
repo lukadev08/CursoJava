@@ -1,11 +1,11 @@
 package Arrays.Collections;
 
-import java.util.HashSet;
-import java.util.Set;
+//import java.util.HashSet;
+//import java.util.Set;
 
 public class ConjuntoBagunca {
     public static void main(String[] args) {
-        
+        /* 
         HashSet conjunto = new HashSet();
 
         conjunto.add(1.2); // double => Double
@@ -17,11 +17,11 @@ public class ConjuntoBagunca {
 
         System.out.println("O Tamanho e: " + conjunto.size());
         
-        /* 
+        
         conjunto.add("teste");
         conjunto.add('y'); //adicionando valores ao set
         System.out.println("O Tamanho e: " + conjunto.size());
-        */
+        
         
         System.out.println(conjunto.remove("teste"));
         System.out.println(conjunto.remove("Teste"));
@@ -48,6 +48,9 @@ public class ConjuntoBagunca {
 
         conjunto.clear(); //esvazia o conjunto
         System.out.println(conjunto);
+        */
 
+
+        /* ignorando advertencias!! */
     }
 }
