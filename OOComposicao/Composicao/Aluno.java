@@ -1,4 +1,4 @@
-package OOComposicao;import java.util.ArrayList;
+package OOComposicao.Composicao;import java.util.ArrayList;
 import java.util.List;
 
 public class Aluno {

@@ -1,4 +1,4 @@
-package OOComposicao;
+package OOComposicao.Composicao;
 
 /*Relacionamento 
  * muitos pra muitos

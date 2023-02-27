@@ -1,4 +1,4 @@
-package OOComposicao;
+package OOComposicao.Composicao;
 
 public class Item {
     
