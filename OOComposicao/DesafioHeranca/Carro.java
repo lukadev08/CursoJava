@@ -2,10 +2,27 @@ package OOComposicao.DesafioHeranca;
 
 public class Carro {
     
-    int velAtual = 0;
+    //parte do desafio
+    final int VELOCIDADE_MAXIMA;
+    int velAtual;
+    int delta = 5;
+
+    //parte desafio
+    Carro(int velocidadeMaxima){
+        VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
+ /* 
+    Carro(){
+        this.VELOCIDADE_MAXIMA = velAtual;
+    }
+*/
 
     void acelerar(){
-        velAtual += 5;
+        if(velAtual + delta > VELOCIDADE_MAXIMA){
+            velAtual = VELOCIDADE_MAXIMA;
+        } else{
+            velAtual += delta; //!!!!!
+        }
     }
 
     void frear(){ // nao pode gerar valor negativo

@@ -7,9 +7,11 @@ public class Jogo {
         monstro.x = 11;
         monstro.y = 10;
 
-        Heroi heroi = new Heroi(); // com a heranca pode se instanciar um jogador como um obj especifico e eles acionam funcoes
+        Heroi heroi = new Heroi(10,11); // com a heranca pode se instanciar um jogador como um obj especifico e eles acionam funcoes
+        /* 
         heroi.x = 10;
         heroi.y = 11; 
+        */
         
         System.out.println("Monstro tem => " + monstro.vida);
         System.out.println("Heroi tem => " + heroi.vida );
