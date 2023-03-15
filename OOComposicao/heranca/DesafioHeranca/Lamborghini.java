@@ -1,13 +1,13 @@
-package OOComposicao.DesafioHeranca;
+package OOComposicao.heranca.DesafioHeranca;
 
-public class Lamborghini extends Carro {
+public class Lamborghini extends Carro { // tornar classe public p/ heranca
     
     //parte desafio
-    Lamborghini(){
+    public Lamborghini(){
         this(315); //determina a velocidade max chamada pelo construtor pai com o this
     }
 
-    Lamborghini(int velocidadeMaxima){
+    public Lamborghini(int velocidadeMaxima){
         super(velocidadeMaxima); // chama o construtor this/\
         
         delta = 15; //metodo acelerar implicito\/

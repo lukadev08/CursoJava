@@ -1,4 +1,4 @@
-package OOComposicao.DesafioHeranca;
+package OOComposicao.heranca.DesafioHeranca;
 
 public class Carro {
     
@@ -8,7 +8,7 @@ public class Carro {
     int delta = 5;
 
     //parte desafio
-    Carro(int velocidadeMaxima){
+    protected Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
     }
  /* 
@@ -17,7 +17,7 @@ public class Carro {
     }
 */
 
-    void acelerar(){
+    public void acelerar(){
         if(velAtual + delta > VELOCIDADE_MAXIMA){
             velAtual = VELOCIDADE_MAXIMA;
         } else{
@@ -25,7 +25,7 @@ public class Carro {
         }
     }
 
-    void frear(){ // nao pode gerar valor negativo
+    public void frear(){ // nao pode gerar valor negativo
         if (velAtual >= 5) { // 5 - 5 = 0, nao pode ser 4 por ex pois se torna negativo
             velAtual -= 5;
         }else{

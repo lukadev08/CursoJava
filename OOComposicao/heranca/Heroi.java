@@ -2,12 +2,12 @@ package OOComposicao.heranca;
 
 public class Heroi extends Jogador { // extends: palavra reservada para atribuir uma heranca de classe
    
-    Heroi(int x, int y){
+    public Heroi(int x, int y){
         super(x, y); //o problema gerado pelo construtor da classe pai
         //se resolve determinando explicitamente o parametro a ser passado dentro do construtor filho = x,y
     }
 
-    boolean atacar(Jogador oponente){
+    public boolean atacar(Jogador oponente){
       boolean ataque1 = super.atacar(oponente); // usa o metodo definido na classe pai: jogador
       boolean ataque2 = super.atacar(oponente); 
       boolean ataque3 = super.atacar(oponente); 

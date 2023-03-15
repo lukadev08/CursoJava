@@ -1,4 +1,8 @@
-package OOComposicao.DesafioHeranca;
+package OOComposicao.heranca.Teste;
+
+import OOComposicao.heranca.DesafioHeranca.Carro;
+import OOComposicao.heranca.DesafioHeranca.Lamborghini;
+import OOComposicao.heranca.DesafioHeranca.Twingo;
 
 public class AceleraTeste {
     public static void main(String[] args) {

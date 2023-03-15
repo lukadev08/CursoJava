@@ -2,16 +2,16 @@ package OOComposicao.heranca;
 
 public class Jogador {
     
-    int vida = 100;
-    int x;
-    int y;
+    public int vida = 100;
+    public int x;
+    public int y;
 
-    Jogador(int x, int y){ //construtor explicito padrao sem param definido(gera falha na classe filho pois nao esta explicito la)
+    protected Jogador(int x, int y){ //construtor explicito padrao sem param definido(gera falha na classe filho pois nao esta explicito la)
         this.x = x;
         this.y = y;
     }
 
-    boolean atacar (Jogador oponente){
+    public boolean atacar (Jogador oponente){
         int deltaX = Math.abs(x - oponente.x); // posicao absoluta do numero, caso for -1 = 1 pos
         int deltaY = Math.abs(x - oponente.y);
 
@@ -29,7 +29,7 @@ public class Jogador {
    
    
    
-    boolean andar(Direcao direcao){
+    public boolean andar(Direcao direcao){
         switch(direcao){
             case NORTE:     //se a Direcao = norte, logo, y = -1 conforme a orientacao da bussola etc
                 y--;
