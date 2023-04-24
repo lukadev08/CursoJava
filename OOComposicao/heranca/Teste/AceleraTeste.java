@@ -21,6 +21,9 @@ public class AceleraTeste {
         System.out.println();
 
         Lamborghini c2 = new Lamborghini(400); // ou a classe especifica por heranca
+        c2.ligarTurbo();
+        c2.desligarAr();
+
         c2.acelerar();
         System.out.println(c2);
        

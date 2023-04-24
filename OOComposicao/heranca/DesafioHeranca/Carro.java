@@ -5,7 +5,7 @@ public class Carro {
     //parte do desafio
     final int VELOCIDADE_MAXIMA;
     int velAtual;
-    int delta = 5;
+    private int delta = 5;
 
     //parte desafio
     protected Carro(int velocidadeMaxima){
@@ -18,10 +18,10 @@ public class Carro {
 */
 
     public void acelerar(){
-        if(velAtual + delta > VELOCIDADE_MAXIMA){
+        if(velAtual + getDelta() > VELOCIDADE_MAXIMA){
             velAtual = VELOCIDADE_MAXIMA;
         } else{
-            velAtual += delta; //!!!!!
+            velAtual += getDelta(); //!!!!!
         }
     }
 
@@ -37,4 +37,13 @@ public class Carro {
         return "Velocidade atual e: " + velAtual + " km/h";
     }
 
+    public int getDelta() {
+        return delta;
+    }
+
+    public void setDelta(int delta) {
+        this.delta = delta;
+    }
+
+    
 }
