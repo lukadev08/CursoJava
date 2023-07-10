@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Map",
+            "request": "launch",
+            "mainClass": "Streams.Map",
+            "projectName": "CursoJava_5faca0c4"
+        },
+        {
+            "type": "java",
+            "name": "imprimirObj",
+            "request": "launch",
+            "mainClass": "Streams.imprimirObj",
+            "projectName": "CursoJava_5faca0c4"
+        },
+        {
+            "type": "java",
             "name": "Jantar",
             "request": "launch",
             "mainClass": "OOComposicao.Polimorfismo.Jantar",
