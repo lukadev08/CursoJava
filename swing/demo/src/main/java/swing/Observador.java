@@ -1,4 +1,4 @@
-package swing.demo.src.main.java.swing;
+package swing;
 
 import java.awt.FlowLayout;
 
