@@ -17,6 +17,7 @@ public class ConsultarPessoas1 {
         //interface para obter informacoes do BD para o editor/app
 
         List<Pessoa> pessoas = new ArrayList<>();
+        //armazena a lista de pessoas no app => terminal
 
         while(resultado.next()){ //loop q executa o select ate o fim da consulta com identificadores
             int codigo = resultado.getInt("codigo");
