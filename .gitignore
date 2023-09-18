@@ -1,2 +1,5 @@
 #ignore properties files
 *.properties
+
+#ignore hibernate folder
+hibernate/

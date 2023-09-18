@@ -8,6 +8,8 @@
     ],
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "libs\\mysql-connector-j-8.1.0.jar"
+        "libs\\mysql-connector-j-8.1.0.jar",
+        "libs\\hibernate-search-5.8.0.Final\\dist\\hibernate-search-engine-5.8.0.Final.jar",
+        "libs\\hibernate-search-5.8.0.Final\\dist\\hibernate-search-orm-5.8.0.Final.jar"
     ]
 }
